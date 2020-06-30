@@ -1,25 +1,10 @@
 import React from 'react';
 import Person from './Person';
+import personListData from '../data/personListData.json'
 
 const PersonList = () => {
 
-    const people = [
-        {
-            img: 22,
-            name: "John",
-            job: "Developer"
-        },
-        {
-            img: 34,
-            name: "Bob",
-            job: "Designer"
-        },
-        {
-            img: 56,
-            name: "Peter",
-            job: "Artist"
-        },
-    ]
+    const people = personListData
 
     return (
         <section>
