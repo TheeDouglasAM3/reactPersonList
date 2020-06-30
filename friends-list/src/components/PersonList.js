@@ -8,11 +8,16 @@ const PersonList = () => {
 
     return (
         <section>
-            <Person person={people[0]} />
-            <Person person={people[1]}>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt nostrum eius quo deserunt voluptate veniam!
-        </Person>
-            <Person person={people[2]} />
+            {people.map
+                (person =>
+                    (
+                        <Person
+                            key={person.img}
+                            person={person}
+                        />
+                    )
+                )
+            }
         </section>
     );
 }

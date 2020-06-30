@@ -13,5 +13,10 @@
         "img": 56,
         "name": "Peter",
         "job": "Artist"
+    },
+    {
+        "img": 57,
+        "name": "Doug",
+        "job": "Developer"
     }
 ]
